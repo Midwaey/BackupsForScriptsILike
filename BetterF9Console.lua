@@ -2352,3 +2352,23 @@ InputService.InputBegan:connect(function(a)
        DeveloperConsoleVisible(not b)
    end
 end)
+
+--[[
+local _, str = pcall(function()
+   return game:HttpGet("https://raw.githubusercontent.com/Midwaey/BackupsForScriptsILike/main/BetterF9Console.lua", true)
+end)
+
+local s, e = loadstring(str)
+if typeof(s) ~= "function" then
+   return
+end
+
+local success, message = pcall(s)
+if (not success) then
+   if printconsole then
+	   printconsole(message)
+   elseif printoutput then
+	   printoutput(message)
+   end
+end
+]]
