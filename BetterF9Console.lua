@@ -1,3 +1,7 @@
+--[[
+I take no credit for this file it was origonally made by yesok#3877
+]]
+
 local Instance_new = Instance.new
 local UDim2_new = UDim2.new
 local Color3_new = Color3.new
