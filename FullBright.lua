@@ -101,6 +101,3 @@ if not _G.FullBrightExecuted then
 		end
 	end)
 end
-
-_G.FullBrightExecuted = true
-_G.FullBrightEnabled = not _G.FullBrightEnabled
