@@ -1,3 +1,4 @@
+local thing = [[
 [
   {
     "x": 0,
@@ -70500,3 +70501,5 @@
     "brick_color": 26
   }
 ]
+]]
+return thing
