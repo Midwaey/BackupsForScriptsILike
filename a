@@ -77252,4 +77252,6 @@ local thing = [[
   }
 ]
 ]]
-return thing
+
+local image = game:GetService("HttpService"):JSONDeocde(thing)
+return image
